@@ -1,0 +1,173 @@
+body{
+	margin: 0;
+	font-family: sans-serif;
+}
+.navbar{
+	color:#fff;
+	width:100%;
+	top:0;
+	left:0;
+	position: fixed;
+	background-color: #000;
+}
+a{
+	text-decoration: none;
+	color:#fff;
+}
+textarea{
+	resize:none;
+}
+.title{
+	float:left;
+}
+.nav-link{
+	float:right;
+}
+.navbar .title{
+	padding:0 80px 0 60px;
+}
+.nav-link{
+	padding:0 20px;
+}
+.logIn{
+	padding-right:100px;
+}
+.register_form{
+	width:70%;
+	margin:auto;
+}
+.container{
+	background: url(./campaign-bg.jpg);
+	background-position: right;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:fixed;
+	background-size: cover;
+	color:#fff;
+	height: 100vh;
+}
+.content{
+    height: 100vh;
+    width:50%;
+	float: left;
+	background-color: rgba(0,0,0,0.5);
+	color:#fff;
+    box-sizing: border-box;
+	text-align: center;
+	padding:5% 5%;
+
+    background:url(campaign-bg.jpg);
+    background-position: right;
+    background-size: cover;
+}
+.content h1{
+	font-size: 3rem;
+	text-align: left;
+}
+.form{
+	height:100%;
+	width:50%;
+	float:right;
+	box-sizing: border-box;
+	padding:5%;
+
+}
+span{
+		text-align:left;
+		font-size: 1rem;
+		margin: 0;
+		width: 45%;
+		color:red;
+	
+}
+.form-group{
+	padding:2%;
+}
+.form-control{
+	padding:3% 3%;
+	border-radius: 5px;
+	border:1px solid black;
+	margin: 4% 0;
+	width:90%;
+}
+.form-label{
+	font-size: 1rem;
+}
+.btn{
+    border:none;
+    color:white;
+    padding:10px;
+    cursor:pointer;
+    background-color:#f44336;
+	border-radius: 5px;
+	display: block;
+	margin: 0 auto;
+	width:30%; 
+}
+.btn:hover {
+	background: #da190b;
+	text-align: center;
+}
+.form-title{
+	text-align: center;
+	font-size: 2rem;
+	padding-top:5%;
+}
+.login-form{
+	padding:1%;
+	border:2px solid #fff;
+	border-radius: 5px;
+	margin:0 auto;
+	width:35%;
+}
+.small{
+	text-align: center;
+}
+.form-ques{
+	padding:10px;
+	width:30%;
+	margin:2% auto;
+}
+hr{
+		border: 0px;
+		border-top: 1px solid #fff;
+}
+.btn-update{
+	border:none;
+	color:white;
+	padding:10px 28px;
+	cursor:pointer;
+	margin-top:10px;
+	border-radius: 5px;
+	border: 2px solid #4286f4;
+	background-color:transparent;
+}
+.btn-del{
+	border:none;
+	color:white;
+	padding:10px 28px;
+	cursor:pointer;
+	margin-top:10px;
+	border-radius: 5px;
+	border: 2px solid #f44336;
+	width:100px;
+	background-color:transparent;
+}
+.comment-input{
+	padding: 1% 1%;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+    border-bottom: 2px solid white;
+    margin: 1% 0;
+    width: 100%;
+    color:white;
+    display: inline;
+    background-color: transparent;
+}
+.comment-input::-webkit-input-placeholder {
+  color: #ffffff;
+}
+input:focus, textarea:focus, select:focus{
+	outline: -webkit-focus-ring-color auto 0px;
+}
